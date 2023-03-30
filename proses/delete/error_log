@@ -1,0 +1,12 @@
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kk/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 31
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/akta/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 36
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/ijazah/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 41
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kip/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 46
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kks/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 51
+[22-Jan-2023 22:56:24 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/foto_siswa/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 62
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kk/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 31
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/akta/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 36
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/ijazah/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 41
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kip/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 46
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/berkas_siswa/kks/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 51
+[24-Jan-2023 22:43:51 Asia/Jakarta] PHP Warning:  unlink(../../assets/dokumen/foto_siswa/): Is a directory in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/delete/siswa.php on line 62

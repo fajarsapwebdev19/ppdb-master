@@ -1,0 +1,7 @@
+[22-Jan-2023 11:12:43 Asia/Jakarta] PHP Notice:  Undefined index: no_reg_akta in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 11
+[22-Jan-2023 11:38:18 Asia/Jakarta] PHP Notice:  Undefined index: no_reg_akta in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 11
+[22-Jan-2023 11:38:18 Asia/Jakarta] PHP Notice:  Undefined variable: nomor_kks in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 76
+[22-Jan-2023 11:38:48 Asia/Jakarta] PHP Notice:  Undefined index: no_reg_akta in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 11
+[22-Jan-2023 11:38:48 Asia/Jakarta] PHP Notice:  Undefined variable: nomor_kks in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 76
+[22-Jan-2023 23:28:41 Asia/Jakarta] PHP Notice:  Undefined index: no_reg_akta in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 11
+[22-Jan-2023 23:28:41 Asia/Jakarta] PHP Notice:  Undefined variable: nomor_kks in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/update/peserta_baru.php on line 76

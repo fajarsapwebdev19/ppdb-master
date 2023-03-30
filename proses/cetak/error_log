@@ -1,0 +1,106 @@
+[22-Jan-2023 10:59:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function get_cellmap() on null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableCell.php:37
+Stack trace:
+#0 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableRow.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#3 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 /home/devmyiom/public_html/smkpgrineglasari in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableCell.php on line 37
+[22-Jan-2023 10:59:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function get_cellmap() on null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableCell.php:37
+Stack trace:
+#0 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableRow.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#3 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 /home/devmyiom/public_html/smkpgrineglasari in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableCell.php on line 37
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 89
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 89
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 93
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 93
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 97
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 97
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 101
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 101
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 105
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 105
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 109
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 109
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 117
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 117
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 121
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 121
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 123
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 123
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 125
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 125
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 129
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 129
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 133
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 133
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 133
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 133
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 137
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 137
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 140
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 144
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 156
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 156
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 160
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 160
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 164
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 164
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 172
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 172
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 189
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 189
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 197
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 197
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 287
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 287
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 341
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 341
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 345
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 345
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 349
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 349
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 353
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 353
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 353
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 353
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 357
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 357
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 357
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 357
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 361
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 361
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 378
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 378
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 382
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 382
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 386
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 386
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 390
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 390
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 394
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 394
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Undefined variable: data in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 407
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 407
+[22-Jan-2023 11:01:40 Asia/Jakarta] PHP Fatal error:  Uncaught Dompdf\Exception: Frame not found in cellmap in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/Cellmap.php:350
+Stack trace:
+#0 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableCell.php(39): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\Block))
+#2 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#4 /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/FrameReflower/TableRowGroup.php(51): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#5 /home/devmyiom/public_html in /home/devmyiom/public_html/smkpgrineglasari/ppdb/dompdf/src/Cellmap.php on line 350
+[22-Jan-2023 23:07:57 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 23:07:57 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 145
+[22-Jan-2023 23:11:55 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 23:11:55 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 145
+[22-Jan-2023 23:11:57 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 23:11:57 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 145
+[22-Jan-2023 23:11:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 141
+[22-Jan-2023 23:11:59 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/devmyiom/public_html/smkpgrineglasari/ppdb/proses/cetak/form.php on line 145
