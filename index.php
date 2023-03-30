@@ -40,7 +40,11 @@
     }
     </style>
 
-    <title>PPDB SEKOLAH</title>
+    <title>PPDB SMK PGRI NEGLASARI</title>
+    <META NAME="keywords" CONTENT="PPDB SMK PGRI NEGLASARI, ppdb smk pgri neglasari, ppdbgrineta, ppdbpgrineglasari">
+    <META NAME="robot" CONTENT="index,follow">
+    <meta name="language" content="indonesia"> 
+	<meta name="author" content="fajarsaputra_dev19" />
 </head>
 
 <body>
