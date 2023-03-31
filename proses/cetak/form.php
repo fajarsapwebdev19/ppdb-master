@@ -266,7 +266,7 @@
         </tr>
       </tbody>
     </table>
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <table>
       <tr>
         <td width="100%">
@@ -419,7 +419,7 @@
         </tr>
       </tbody>
     </table>
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <table>
       <tr>
         <td width="100%">
@@ -588,11 +588,11 @@
 				<td align="center">Orang Tua/Wali Siswa<br><br><br><br><br><br>
           <b>
             <?php
-              if(empty($data['nama_ayah']))
+              if($data['nama_ayah'] == "")
               {
                 echo $data['nama_ibu'];
-              }
-              elseif(empty($data['nama_ayah']) && $data['nama_ibu']){
+              }else if($data['nama_ayah'] == "" && $data['nama_ibu'] == "")
+              {
                 echo $data['nama_wali'];
               }else{
                 echo "NULL";
@@ -609,7 +609,7 @@
   ob_end_clean();
 
   $dompdf->loadHtml($html);
-  $dompdf->setPaper('A4','potrait');
+  $dompdf->setPaper(array(0,0,609.4488,935.433), 'portrait');
   $dompdf->render();
   $tahun = date('Y');
   $title = "Formulir Pendaftaran Siswa".' - '.$data['nama'];
