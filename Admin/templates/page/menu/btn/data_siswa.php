@@ -321,7 +321,7 @@
 
 <!-- hapus data -->
 <div class="modal fade" id="delete<?= $data['id'] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Konfirmasi Hapus Data</h5>
@@ -339,6 +339,20 @@
           </div>
         </form>
       </div>
+    </div>
+  </div>
+</div>
+<!-- end hapus data -->
+
+<!-- hapus data -->
+<div class="modal fade" id="confirm_add" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Konfirmasi Kesempatan Ubah</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <form method="post" action="../proses/approval/permision_update.php" id="confirm"></form>
     </div>
   </div>
 </div>

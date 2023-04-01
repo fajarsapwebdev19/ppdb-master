@@ -28,13 +28,14 @@
                   <th>Asal Sekolah</th>
                   <th>Nama Ayah</th>
                   <th>Nama Ibu</th>
+                  <th>Kesempatan Ubah</th>
                   <th>Action</th>
                 </tr>
               </thead>
               <tbody>
                 <?php
                   $no = 1;
-                  $data_siswa = mysqli_query($koneksi, "SELECT * FROM data_peserta_baru WHERE status_approval='Terima'");
+                  $data_siswa = mysqli_query($koneksi, "SELECT *, data_peserta_baru.id AS id FROM data_peserta_baru JOIN kesempatan_ubah WHERE data_peserta_baru.status_approval='Terima'");
                   while($data = mysqli_fetch_assoc($data_siswa)):
                 ?>
                   <tr>
@@ -62,6 +63,7 @@
                     <td><?= $data['asal_sekolah'] ?></td>
                     <td><?= $data['nama_ayah'] ?></td>
                     <td><?= $data['nama_ibu']?></td>
+                    <td class="text-center"><?= $data['kesempatan_ubah'] ?></td>
                     <td>
                         <a href="#!" class="btn btn-sm btn-info" title="View Data" data-bs-target="#view<?= $data['id'] ?>" data-bs-toggle="modal">
                           <em class="fas fa-eye"></em>
@@ -69,6 +71,13 @@
                         <a href="#!" class="btn btn-sm btn-danger" title="Delete Data" data-bs-target="#delete<?= $data['id']?>" data-bs-toggle="modal">
                           <em class="fas fa-trash-alt"></em>
                         </a>
+                        <button type="button" class="btn btn-sm btn-primary confirm_update_kouta" title="Add Update" <?= ($data['kesempatan_ubah'] == 0 ? '' : 'disabled') ?> data-id="<?= $data['id'] ?>">
+                          <em class="fas fa-user-plus"></em>
+                        </button>
+                        <button type="button" class="btn btn-sm btn-info print" title="Print" data-id="<?= $data['id'] ?>">
+                          <em class="fas fa-print"></em>
+                        </button>
+                        
                     </td>
                     <?php require 'btn/data_siswa.php'; ?>
                   </tr>

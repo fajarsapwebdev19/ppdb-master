@@ -470,6 +470,27 @@ if ($apl['auto_close_alert'] == "Yes") {
             })
         })
 
+        $('#example').on('click', '.confirm_update_kouta', function(){
+            var id = $(this).data('id');
+
+            $.ajax({
+                url: 'ajax/method_confirm.php',
+                data: {id:id},
+                type: 'post',
+                success:function(response)
+                {
+                    $('#confirm_add').modal('show');
+                    $('#confirm').html(response);
+                }
+            })
+        })
+
+        $('#example').on('click', '.print', function(){
+            var id = $(this).data("id");
+
+            window.location='../proses/cetak/s_form.php?id='+id;
+        })
+
         // editor text
         $('.editor').summernote({
             tabsize: 4,

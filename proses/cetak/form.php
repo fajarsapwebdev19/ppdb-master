@@ -1,7 +1,7 @@
 <?php
-  require_once('../../dompdf/autoload.inc.php');
+  require('../../dompdf/autoload.inc.php');
   require_once('../../koneksi/koneksi.php');
-
+  
   session_start();
   ob_start();
 
@@ -114,7 +114,13 @@
           ?>
         <!-- end data kop surat -->
         <!-- logo sekolah -->
-				<td><img src="../../assets/img/logo/<?= $data_kop['logo_sekolah']?>" width="120" height="120"></td>
+        <?php
+          $path = "../../assets/img/logo/{$data_kop['logo_sekolah']}";
+          $type = pathinfo($path, PATHINFO_EXTENSION);
+          $encode = file_get_contents($path);
+          $base64 = "data:image/". $type. ";base64,". base64_encode($encode);
+        ?>
+				<td><img src="<?= $base64; ?>" width="120" height="120"></td>
 				<td>
 				<center style="margin-right: 90px;">
 					<font size="4">FORMULIR PENDAFTARAN SISWA BARU</font><br>
@@ -266,7 +272,7 @@
         </tr>
       </tbody>
     </table>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div style="margin-top: 290px;"></div>
     <table>
       <tr>
         <td width="100%">
@@ -419,7 +425,7 @@
         </tr>
       </tbody>
     </table>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div style="margin-top: 290px;"></div>
     <table>
       <tr>
         <td width="100%">
@@ -590,12 +596,21 @@
             <?php
               if($data['nama_ayah'] == "")
               {
-                echo $data['nama_ibu'];
-              }else if($data['nama_ayah'] == "" && $data['nama_ibu'] == "")
+                  echo $data['nama_ibu'];
+              }else if($data['nama_ibu'] == "")
               {
-                echo $data['nama_wali'];
-              }else{
-                echo "NULL";
+                  echo $data['nama_ayah'];
+              }
+              else if($data['nama_ayah'] == "" && $data['nama_ibu'] == "")
+              {
+                  echo $data['nama_wali'];
+              }
+              else if($data['nama_ibu'] || $data['nama_ayah'])
+              {
+                  echo $data['nama_ayah'];
+              }
+              else{
+                  echo "KOSONG";
               }
             ?>
           </b>
